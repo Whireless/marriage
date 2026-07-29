@@ -4,7 +4,7 @@ import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 import simpleHtmlPlugin from 'vite-plugin-simple-html';
 
 export default defineConfig({
-  // base: '/marriage', // На Github
+  base: '/marriage', // На Github
   // base: '/', // На хостинг
   server: {
     open: true,
