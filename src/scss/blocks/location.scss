@@ -1,0 +1,40 @@
+.location {
+  color: $white;
+  background-color: $black;
+}
+
+.location__title {
+  text-align: center;
+}
+
+.location__img {
+  object-fit: cover;
+}
+
+.location__time {
+  font-weight: 100;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+
+  span {
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
+    letter-spacing: 1px;
+  }
+}
+
+.location__ {
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+.location__map {
+  // left: -15px;
+  // right: 15px;
+  padding-bottom: 35px;
+
+  iframe {
+    position: relative;
+  }
+}

@@ -1,0 +1,32 @@
+.contacts__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  list-style: none;
+}
+
+.contacts__name {
+  font-family: 'Caveat', cursive;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 1px;
+}
+
+.contacts__img {
+  object-fit: cover;
+}
+
+.contacts__number {
+  font-size: 17px;
+  color: grey;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  border-bottom: 1px solid transparent;
+  transition: 0.4s;
+
+  &:hover {
+    color: $black;
+    border-bottom: 1px solid $black;
+  }
+}

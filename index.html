@@ -5,29 +5,142 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
-	<title>Проект</title>
+   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+	<title>Свадьба Анастасии и Александра</title>
 </head>
 <body>
   <header class="main-header">
   	<nav class="main-nav">
+      <button class="main-nav__button main-nav__button--music">Музыка</button>
+      <audio class="main-nav__player" preload="metadata">
+        <source src="/music/Perfect-EdSheeran.mp3" type="audio/mpeg">
+      </audio>
   		<ul class="main-nav__list">
-  			<li class="main-nav__item"><a href="" class="main-nav__link"></a></li>
+  			<li class="main-nav__item"><a href="" class="main-nav__link">Место проведения</a></li>
+        <li class="main-nav__item"><a href="" class="main-nav__link">Дресс-код</a></li>
+        <li class="main-nav__item"><a href="" class="main-nav__link">Связатся с нами</a></li>
   		</ul>
+      <button class="main-nav__button main-nav__button--open">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
   	</nav>
+    <!-- <h1 class="main-header__title">
+      Александр <br> и <br> Анастасия
+    </h1> -->
+    <h1 class="main-header__title">
+      <span>Александр</span>
+      <span>и</span>
+      <span>Анастасия</span>
+    </h1>
+    <p class="main-header__date">07 <span>августа</span> 2026</p>
   </header>
 	<main>
 		<section class="intro">
 			<div class="container">
-				<h1 class="intro__title"></h1>
+				<h2 class="intro__title">Дорогие гости</h2>
+        <p class="intro__description">
+         <span>Вы получили это сообщение, а значит, мы спешим поделиться с вами радостной новостью – у нас скоро свадьба!</span>
+         <span>Мы приглашаем вас разделить с нами радость этого особенного события и стать частью нашей семейной истории.</span>
+         <span>Ваше присутствие сделает наш день еще более значимым и незабываемым.</span>
+        </p>
 			</div>
 		</section>
-		<section class="about">
+		<!-- <section class="history-love">
 			<div class="container">
-				<h2 class="about__title"></h2>
+				<h2 class="history-love__title">История любви</h2>
+        <p class="history-love__description"></p>
+        <article class="history-love__img-block"></article>
+        <p class="history-love__description"></p>
 			</div>
-		</section>
+		</section> -->
+    <section class="location">
+      <div class="container">
+        <h2 class="location__title">Место проведения</h2>
+        <img class="location__img" src="/img/location.jpeg" width="345" height="400" alt="Место проведения свадьбы">
+        <p class="location__time">
+          Сбор гостей<span>16:00</span>
+        </p>
+        <p class="location__">
+          Для вашего удобства мы подготовили карту.
+          Надеемся, что вы легко найдете место проведения свадьбы и порадуете нас своим присутствием!
+        </p>
+        </div>
+         <div class="location__map" style="position: relative; overflow: hidden;">
+          <!-- <a href="https://yandex.com/maps/org/malinovka/230248970827/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Малиновка</a>
+          <a href="https://yandex.com/maps/10996/kropotkin/category/tourist_camp/184106426/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Турбаза в Кропоткине</a> -->
+
+          <iframe src="https://yandex.com/map-widget/v1/?ll=40.591336%2C45.424997&mode=search&oid=230248970827&ol=biz&sctx=ZAAAAAgBEAAaKAoSCY3PZP88XSFAEVrW%2FWMhDklAEhIJhJ1i1SDMwz8RjpJX5xiQtT8iBgABAgMEBSgKOABA9FVIAWI6cmVhcnI9c2NoZW1lX0xvY2FsL0dlb3VwcGVyL0FkdmVydHMvQ3VzdG9tTWF4YWR2L0VuYWJsZWQ9MWI6cmVhcnI9c2NoZW1lX0xvY2FsL0dlb3VwcGVyL0FkdmVydHMvQ3VzdG9tTWF4YWR2L01heGFkdj0xNWJEcmVhcnI9c2NoZW1lX0xvY2FsL0dlb3VwcGVyL0FkdmVydHMvQ3VzdG9tTWF4YWR2L1JlZ2lvbklkcz1bMSwxMDE3NF1iQHJlYXJyPXNjaGVtZV9Mb2NhbC9HZW91cHBlci9BZHZlcnRzL01heGFkdlRvcE1peC9NYXhhZHZGb3JNaXg9MTBqAmRlnQHNzMw9oAEAqAEAvQEY5HnQwgEGy%2FSh39kGggJE0JrRgNC%2B0L%2FQvtGC0LrQuNC9INGA0LXRh9C90LDRjyA0MSDRgtGD0YDQsdCw0LfQsCDQnNCw0LvQuNC90L7QstC60LCKAgCSAgUxMDk5NpoCDGRlc2t0b3AtbWFwcw%3D%3D&sll=40.591336%2C45.424997&sspn=0.010951%2C0.006530&text=%D0%9A%D1%80%D0%BE%D0%BF%D0%BE%D1%82%D0%BA%D0%B8%D0%BD%20%D1%80%D0%B5%D1%87%D0%BD%D0%B0%D1%8F%2041%20%D1%82%D1%83%D1%80%D0%B1%D0%B0%D0%B7%D0%B0%20%D0%9C%D0%B0%D0%BB%D0%B8%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0&z=16.82" width="100%" height="450" frameborder="0" allowfullscreen="false"></iframe>
+        </div>
+      <!-- </div> -->
+    </section>
+    <section class="plan">
+      <div class="container">
+        <h2 class="plan__title">Программа дня</h2>
+        <ul class="plan__list">
+          <li class="plan__item">Регистрация<span>10:30</span></li>
+          <li class="plan__item">Банкет<span>16:00</span></li>
+          <li class="plan__item">Свадебный торт<span>20:00</span></li>
+          <li class="plan__item">Окончание вечера<span>00:00</span></li>
+        </ul>
+      </div>
+    </section>
+    <section class="dresscode">
+      <div class="container">
+        <h2 class="dresscode__title">Дресс-код</h2>
+        <p class="dresscode__description">
+          Мы рады сообщить, что дресс-кода на нашей свадьбе не будет. Тем не менее, мы просим воздержаться от ярких цветов и броских принтов, а также белого цвета. Будем очень рады, если вы отдадите предпочтение спокойным и нейтральным тонам. Спасибо за понимание и поддержку в создании гармоничной атмосферы нашего торжества!
+        </p>
+      </div>
+    </section>
+    <section class="timer">
+      <div class="container">
+        <h2 class="timer__title">До свадьбы осталось:</h2>
+        <article>
+          <p class="timer__day"><span></span> дней</p>
+          <p class="timer__hours"></p>
+        </article>
+      </div>
+    </section>
+    <section class="wishes">
+      <div class="container">
+        <h2 class="wishes__title">Наши тёплые пожелания</h2>
+        <p class="wishes__description">
+          Мы хотим, чтобы этот день стал не только началом нашей семьи, но и тёплым воспоминанием для всех вас.
+        </p>
+        <ol class="wishes__list">
+          <li class="wishes__item">
+            Приносите с собой веселье и радость в душе, а подарки — в конверте. Принимаем в дар ключи от квартир, автомобилей, самолётов, яхт и ваших сердец :)
+          </li>
+          <li class="wishes__item">
+            Мы хотим, чтобы вы провели этот день с улыбкой на лице. Взаимодействуйте с другими гостями, участвуйте в развлечениях и просто наслаждайтесь прекрасной атмосферой.
+          </li>
+          <li class="wishes__item">
+            Мы очень ценим ваше присутствие на нашем торжестве. Просим вас не задерживаться, чтобы мы могли разделить с вами этот день в полной мере. Благодарим за ваше внимание к этой детали.
+          </li>
+        </ol>
+      </div>
+    </section>
+    <section class="contacts">
+      <div class="container">
+        <h2 class="contacts__title">Связатся с нами</h2>
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            <img class="contacts__img" src="img/Alexander.jpeg" width="345" height="400" alt="">
+            <h3 class="contacts__name">Александр</h3>
+            <a class="contacts__number" href="tel:+79615010996">+7-961-501-09-96</a>
+          </li>
+          <li class="contacts__item">
+            <img class="contacts__img" src="img/Anastasiya.jpeg" width="345" height="400" alt="">
+            <h3 class="contacts__name">Анастасия</h3>
+            <a class="contacts__number" href="tel:+79182542702">+7-918-254-27-02</a>
+          </li>
+        </ul>
+      </div>
+    </section>
 	</main>
-	<footer class="main-footer"></footer>	
+	<footer class="main-footer"></footer>
 	<script src="/src/js/index.js" type="module"></script>
 </body>
 </html>

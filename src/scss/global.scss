@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  // list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Comfortaa', 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: $white;
+  min-width: 375px;
+}
+
+h2 {
+  font-family: 'Caveat', cursive;
+  font-size: 43px;
+  line-height: 55px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}

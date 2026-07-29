@@ -1,0 +1,17 @@
+.plan__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.plan__item {
+  font-weight: 100;
+  display: flex;
+  justify-content: space-between;
+
+  span {
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
+    letter-spacing: 1px;
+  }
+}
