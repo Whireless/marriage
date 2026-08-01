@@ -1,10 +1,10 @@
 const openButton = document.querySelector('.main-nav__button--open')
-const menu = document.querySelector('.main-nav__list');
+const menu = document.querySelector('.main-nav');
 
 // Открытие меню
 
 openButton.addEventListener('click', () => {
-  menu.classList.toggle('main-nav__list--open');
+  menu.classList.toggle('main-nav--open');
 });
 
 // Воспроизведение музыки

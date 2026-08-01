@@ -18,17 +18,15 @@
   		<ul class="main-nav__list">
   			<li class="main-nav__item"><a href="#location" class="main-nav__link">Место проведения</a></li>
         <li class="main-nav__item"><a href="#dresscode" class="main-nav__link">Дресс-код</a></li>
+        <li class="main-nav__item"><a href="#wishes" class="main-nav__link">Пожелания</a></li>
         <li class="main-nav__item"><a href="#contacts" class="main-nav__link">Связатся с нами</a></li>
   		</ul>
       <button class="main-nav__button main-nav__button--open">
-        <span></span>
-        <span></span>
-        <span></span>
+        <span class="main-nav__button-elem"></span>
+        <span class="main-nav__button-elem"></span>
+        <span class="main-nav__button-elem"></span>
       </button>
   	</nav>
-    <!-- <h1 class="main-header__title">
-      Александр <br> и <br> Анастасия
-    </h1> -->
     <h1 class="main-header__title">
       <span>Александр</span>
       <span>и</span>
@@ -57,15 +55,17 @@
 		</section> -->
     <section id="location" class="location">
       <div class="container">
-        <h2 class="location__title">Место проведения</h2>
-        <img class="location__img" src="/img/location.jpeg" width="345" height="400" alt="Место проведения свадьбы">
-        <p class="location__time">
-          Сбор гостей<span>16:00</span>
-        </p>
-        <p class="location__">
-          Для вашего удобства мы подготовили карту.
-          Надеемся, что вы легко найдете место проведения свадьбы и порадуете нас своим присутствием!
-        </p>
+        <article class="location__info">
+          <h2 class="location__title">Место проведения</h2>
+          <img class="location__img" src="/img/location.jpeg" width="345" height="400" alt="Место проведения свадьбы">
+          <p class="location__time">
+            Сбор гостей<span>16:30</span>
+          </p>
+          <p class="location__">
+            Для вашего удобства мы подготовили карту.
+            Надеемся, что вы легко найдете место проведения свадьбы и порадуете нас своим присутствием!
+          </p>
+        </article>
         </div>
          <div class="location__map" style="position: relative; overflow: hidden;">
           <!-- <a href="https://yandex.com/maps/org/malinovka/230248970827/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Малиновка</a>
@@ -103,7 +103,7 @@
         </article>
       </div>
     </section>
-    <section class="wishes">
+    <section id="wishes" class="wishes">
       <div class="container">
         <h2 class="wishes__title">Наши тёплые пожелания</h2>
         <p class="wishes__description">
@@ -118,6 +118,9 @@
           </li>
           <li class="wishes__item">
             Мы очень ценим ваше присутствие на нашем торжестве. Просим вас не задерживаться, чтобы мы могли разделить с вами этот день в полной мере. Благодарим за ваше внимание к этой детали.
+          </li>
+          <li class="wishes__item">
+            Если вы планируете принять участие в веселом конкурсе на мальчика и девочку и поборотся за главный сладкий приз - свадебный торт, пожалуйста, захватите с собой немного наличных (лучше мелкими купюрами). Будем рады вашему участию!
           </li>
         </ol>
       </div>
