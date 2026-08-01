@@ -3,12 +3,18 @@
   background-color: $black;
 }
 
+.location__info {
+  display: flex;
+  flex-direction: column;
+}
+
 .location__title {
   text-align: center;
 }
 
 .location__img {
   object-fit: cover;
+  align-self: center;
 }
 
 .location__time {
